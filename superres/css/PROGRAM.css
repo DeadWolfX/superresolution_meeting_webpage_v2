@@ -1,0 +1,71 @@
+#PROGRAM {
+  background-image: url("../assets/portada2.png"); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover; /* Esto asegura que la imagen de fondo cubra todo el cuerpo */
+  background-position: no-repeat; /* Centra la imagen de fondo */
+}
+#inicioTitulo {
+    position: absolute; /* Hacemos que el título sea absoluto */
+    top: 5%; /* Lo movemos al centro verticalmente */
+    left: calc(25% ); /* Lo movemos al lado derecho de la imagen, ajustando 10px de margen */
+    transform: translateY(-50%); /* Alineamos el título verticalmente */
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.accordion-button {
+    background-color: #C8A2C8;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #836FFF;
+    color: #dbdbdb;
+}
+
+.accordion-button::after {
+    background-image: url("../assets/angles-down-solid.svg");
+    background-size: contain;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../assets/angles-up-solid.svg");
+    background-size: contain;
+}
+
+.download-button-container {
+    margin-top: 20px; /* Ajusta el margen según sea necesario */
+    text-align: center;
+}
+
+.download-button {
+    margin-bottom: 5%;
+    background-color: #6a0dad; /* Color púrpura */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.download-button:hover {
+    background-color: #4d0099; /* Color púrpura oscuro al pasar el ratón */
+}
+
+
+@media only screen and (max-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { /* Cambia max-width a min-width y ajusta el valor según sea necesario */
+    /* Estilos para dispositivos celulares */
+    #inicioTitulo {
+      top: 2% ; 
+      font-size: 14px;
+      left: calc(20%)
+    }
+
+}

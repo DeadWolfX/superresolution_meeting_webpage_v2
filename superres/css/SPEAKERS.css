@@ -1,0 +1,113 @@
+#inicioTitulo {
+    position: absolute; /* Hacemos que el título sea absoluto */
+    top: 5%; /* Lo movemos al centro verticalmente */
+    left: calc(25% ); /* Lo movemos al lado derecho de la imagen, ajustando 10px de margen */
+    transform: translateY(-50%); /* Alineamos el título verticalmente */
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#protocoloInicio {
+  background-image: url("../assets/portada2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+
+#protocoloInicio p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 500;
+  width: max-content;
+  height: max-content;
+  text-align: center;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: large;
+  margin: 0 auto;
+}
+
+#protocoloInicio a {
+  width: min-content;
+}
+
+
+
+
+
+
+.botones2 {
+    width: 110px;
+    height: 110px;
+    border-radius: 1000px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 60px;
+    background-color: white;
+}
+
+
+.botones1 {
+    width: 110px;
+    height: 110px;
+    border-radius: 1000px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 60px;
+    background-color: white;
+}
+
+
+
+#botones{
+    margin-left: 20%;
+}
+
+
+
+#colBotones {
+    height: fit-content;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#spancol {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.text-center{
+  color: white;
+}
+
+#encabezadoModales {
+    background-color: #836FFF;
+}
+
+#cuerpoModales {
+    background-color: #C8A2C8;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { /* Cambia max-width a min-width y ajusta el valor según sea necesario */
+    /* Estilos para dispositivos celulares */
+    #inicioTitulo {
+      top: 2% ; 
+      font-size: 14px;
+      left: calc(20%)
+    }
+
+    #botones{
+        margin-left: 0%;
+    }  
+
+}

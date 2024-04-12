@@ -1,0 +1,83 @@
+#register {
+    background-image: url("../assets/portada2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#inicioTitulo {
+  position: absolute; /* Hacemos que el título sea absoluto */
+  top: 5%; /* Lo movemos al centro verticalmente */
+  left: calc(25% ); /* Lo movemos al lado derecho de la imagen, ajustando 10px de margen */
+  transform: translateY(-50%); /* Alineamos el título verticalmente */
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#inicioTitulo2 {
+   color: white;
+   font-family: "Roboto", sans-serif;
+   margin-top: 10px;
+   font-size: 30px;
+   font-weight: bold;   
+}
+
+
+#registerButton {
+  margin-top: 8%;
+  margin-bottom: 10%;
+  background-color: #a68dff; /* Color morado claro */
+  color: #ffffff; /* Texto blanco */
+  padding: 10px 20px; /* Espacio interno del botón */
+  border: none; /* Quitamos el borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 18px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición suave al cambiar de color */
+}
+
+#registerButton:hover {
+    background-color: #7a5cff; /* Color morado más oscuro al pasar el mouse */
+}
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+@media only screen and (max-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { /* Cambia max-width a min-width y ajusta el valor según sea necesario */
+  /* Estilos para dispositivos celulares */
+  #inicioTitulo {
+    top: 2%;
+    font-size: 14px;
+    left: calc(20%)
+  }
+
+  #registerButton {
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  } 
+
+
+}
+
+
