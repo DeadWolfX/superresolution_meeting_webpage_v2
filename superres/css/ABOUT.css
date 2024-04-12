@@ -65,16 +65,16 @@
 
 
 #botonesS{
-    margin-left: 30%;
+    margin-left: 50%;
 }
 
 
 #botonesJ{
-    margin-left: 20%;
+    margin-left: 50%;
 }
 
 #botonesC{
-    margin-left: 45%;
+    margin-left: 50%;
 }
 
 
@@ -93,8 +93,33 @@
 }
 
 .text-center{
-  color: white;
+  color: black;
 }
+
+#infra1 {
+  margin-top: 0%;
+  margin-left: 50%;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  width: 100%;
+  max-width: 600px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#infra2 {
+  margin-top: 7%;
+  margin-left: 50%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  width: 100%;
+  max-width: 600px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
 
 #encabezadoModales {
     background-color: #836FFF;
@@ -107,6 +132,16 @@
 
 @media only screen and (max-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { /* Cambia max-width a min-width y ajusta el valor según sea necesario */
     /* Estilos para dispositivos celulares */
+
+    #infra2{
+      margin-top: 5%;
+      margin-left: 40%;
+    }
+
+    #infra1{
+      margin-top: 2%;
+      margin-left: 20%;
+    }
     #inicioTitulo {
       top: 2% ; 
       font-size: 14px;
@@ -114,16 +149,16 @@
     }
 
     #botonesS{
-        margin-left: 0%;
+        margin-left: 25%;
     }
 
 
     #botonesJ{
-        margin-left: 0%;
+        margin-left: 25%;
     }
 
     #botonesC{
-        margin-left: 0%;
+        margin-left: 25%;
     }  
 
 }

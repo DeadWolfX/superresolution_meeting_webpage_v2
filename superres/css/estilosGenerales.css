@@ -108,15 +108,15 @@ a #sesion{
 }
 
 #infra {
-  margin-top: 3%;
-  margin-left: 50%;
+  margin-top: 7%;
+  margin-left: 40%;
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   width: 100%;
   max-width: 600px;
   text-transform: uppercase;
-  font-size: 19px;
+  font-size: 30px;
 }
 
 
@@ -127,7 +127,7 @@ ul a {
 @media only screen and (max-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { /* Cambia max-width a min-width y ajusta el valor según sea necesario */
     /* Estilos para dispositivos celulares */
     #infra {
-      margin-left: 40%;
+      margin-left: 20%;
     }
   
 
