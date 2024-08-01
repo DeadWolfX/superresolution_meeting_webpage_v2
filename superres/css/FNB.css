@@ -104,8 +104,31 @@
     margin-bottom: 10px; /* Espacio entre la imagen y el texto */
 }
 
+.carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: black;
+            border-radius: 50%;
+    }
 
-@media only screen and (max-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { /* Cambia max-width a min-width y ajusta el valor según sea necesario */
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    margin: 0 auto;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+}
+
+.carousel-caption {
+    position: static;
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {  /* Cambia max-width a min-width y ajusta el valor según sea necesario */
     /* Estilos para dispositivos celulares */
     #inicioTitulo {
       font-size: 14px;
@@ -122,8 +145,8 @@
     }
 
     .image-with-text img {
-        width: 150px; /* Ajusta el tamaño según sea necesario */
-        height: 150px;
+        width: 120px; /* Ajusta el tamaño según sea necesario */
+        height: 120px;
     }
 
     .image-with-text p {
